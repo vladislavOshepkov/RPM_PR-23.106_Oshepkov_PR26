@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prac26</string>
+    <string name="title_activity_add_payment_method">AddPaymentMethodActivity</string>
+    <string name="title_activity_tracking_package">TrackingPackageActivity</string>
+    <string name="title_activity_delivery_successful">DeliverySuccessfulActivity</string>
+    <string name="title_activity_wallet">WalletActivity</string>
+    <string name="title_activity_chats">ChatsActivity</string>
+</resources>

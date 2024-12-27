@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+            android:allowBackup="true"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_rules"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Prac26"
+            tools:targetApi="31">
+        <activity
+                android:name=".ChatsActivity"
+                android:exported="false"
+                android:label="@string/title_activity_chats" />
+        <activity
+                android:name=".WalletActivity"
+                android:exported="false"
+                android:label="@string/title_activity_wallet" />
+        <activity
+                android:name=".DeliverySuccessfulActivity"
+                android:exported="false"
+                android:label="@string/title_activity_delivery_successful"/>
+        <activity
+                android:name=".TrackingPackageActivity"
+                android:exported="false"
+                android:label="@string/title_activity_tracking_package" />
+        <activity
+                android:name=".AddPaymentMethodActivity"
+                android:exported="false"
+                android:label="@string/title_activity_add_payment_method" />
+        <activity
+                android:name=".MainActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
